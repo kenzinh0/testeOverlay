@@ -43,6 +43,13 @@ input {
     background: rgba(0, 0, 0, 0.7);
     display: none;
 }
+.overlay {
+    margin: 0 0.5rem;
+  
+    animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 800ms; /* don't forget to set a duration! */
+  }
+  
 .fechar {
     position: absolute;
     top: 20px;
